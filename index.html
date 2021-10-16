@@ -10,8 +10,61 @@ div {text-align: center;}
 <body>
 
 <h1>Philanthropy Education Center</h1>
-<p>This is a paragraph.</p>
-<div>This is a div.</div>
+<p>Welcome to the Philanthropy Education Center! Today is Saturday, October 16, 2021.</p>
+<div>Here are resources you can </div>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Three Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Mathematics</h2>
+    <ul>
+      <li> Some text..</li>
+      <li> Some text..</li>
+      <li> Some text..</li>
+    </ul>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+     <ul>
+      <li> Some text..</li>
+      <li> Some text..</li>
+      <li> Some text..</li>
+    </ul>
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+     <ul>
+      <li> Some text..</li>
+      <li> Some text..</li>
+      <li> Some text..</li>
+    </ul>
+  </div>
+</div>
 
 </body>
 </html>
